@@ -63,16 +63,16 @@ href="http://greenbytes.de/tech/webdav/rfc2629xslt/rfc2629.xslt" ?>
     </author>
 
     <author initials="E" surname="Jasinska" fullname="Elisa Jasinska">
-      <organization>Netflix, Inc</organization>
+      <organization>BigWave IT</organization>
       <address>
         <postal>
-          <street>100 Winchester Circle</street>
-          <city>Los Gatos</city> 
-          <region>CA</region>
-          <code>95032</code>
-          <country>USA</country>
+          <street>ul. Skawinska 27/7</street>
+          <city>Krakow</city> 
+          <region>MP</region>
+          <code>31-066</code>
+          <country>Poland</country>
         </postal>
-        <email>elisa@netflix.com</email>
+        <email>elisa@bigwaveit.org</email>
       </address>
     </author>
 
