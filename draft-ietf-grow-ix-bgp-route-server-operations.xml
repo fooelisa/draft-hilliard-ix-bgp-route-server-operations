@@ -45,8 +45,8 @@ href="http://greenbytes.de/tech/webdav/rfc2629xslt/rfc2629.xslt" ?>
 
   <front>
 
-    <title abbrev="IX BGP Route Server Operations">
-      Internet Exchange Route Server Operations
+    <title abbrev="IXP BGP Route Server Operations">
+      Internet Exchange BGP Route Server Operations
     </title>
 
     <author initials="N" surname="Hilliard" fullname="Nick Hilliard">
@@ -86,10 +86,7 @@ href="http://greenbytes.de/tech/webdav/rfc2629xslt/rfc2629.xslt" ?>
           <code>94043</code>
           <country>USA</country>
         </postal>
-        <phone></phone>
-        <facsimile></facsimile>
         <email>robert@raszuk.net</email>
-        <uri></uri>
       </address>
     </author>
 
@@ -106,7 +103,7 @@ href="http://greenbytes.de/tech/webdav/rfc2629xslt/rfc2629.xslt" ?>
       </address>
     </author>
 
-    <date month="October" year="2014" />
+    <date month="June" year="2015" />
     <area>Routing</area>
     <workgroup>GROW Working Group</workgroup>
     <keyword>I-D</keyword>
