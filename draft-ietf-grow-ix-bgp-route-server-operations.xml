@@ -31,7 +31,7 @@ href="http://greenbytes.de/tech/webdav/rfc2629xslt/rfc2629.xslt" ?>
 <!-- keep one blank line between list items -->
 <!-- end of list of popular I-D processing instructions -->
 <rfc category="info"
-     docName="draft-ietf-grow-ix-bgp-route-server-operations-05"
+     docName="draft-ietf-grow-ix-bgp-route-server-operations-06"
      ipr="trust200902"
      obsoletes=""
      updates=""
@@ -76,14 +76,14 @@ href="http://greenbytes.de/tech/webdav/rfc2629xslt/rfc2629.xslt" ?>
       </address>
     </author>
 
-    <author initials="R" surname="Raszuk" fullname="Robert Raszuk">
-      <organization>Mirantis Inc.</organization>
+    <author fullname='Robert Raszuk' initials='R' surname='Raszuk'>
+      <organization>Bloomberg LP</organization>
       <address>
         <postal>
-          <street>615 National Ave. #100</street>
-          <city>Mt View</city>
-          <region>CA</region>
-          <code>94043</code>
+          <street>731 Lexington Ave</street>
+          <city>New York City</city>
+          <region>NY</region>
+          <code>10022</code>
           <country>USA</country>
         </postal>
         <email>robert@raszuk.net</email>
@@ -103,7 +103,7 @@ href="http://greenbytes.de/tech/webdav/rfc2629xslt/rfc2629.xslt" ?>
       </address>
     </author>
 
-    <date month="June" year="2015" />
+    <date month="August" year="2016" />
     <area>Routing</area>
     <workgroup>GROW Working Group</workgroup>
     <keyword>I-D</keyword>
