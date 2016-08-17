@@ -296,6 +296,14 @@ href="http://greenbytes.de/tech/webdav/rfc2629xslt/rfc2629.xslt" ?>
         from which it can receive reachability information for all other
         routers on the IXP which also connect to the route server.
       </t>
+      <t>
+        Multilateral and bilateral interconnections between different
+        autonomous systems are not exclusive to each other, and it is not
+        unusual to have both sorts of sessions configured in parallel at an
+        IXP.  This configuration will lead to additional paths being
+        available to the BGP Decision Process, which will calculate a best
+        path as normal.
+      </t>
     </section>
 
 
