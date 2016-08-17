@@ -543,18 +543,10 @@ the title) for use on https://www.rfc-editor.org/search.
             As both standard and extended BGP community values are currently
             restricted to 6 octets or fewer, it is not possible for both the
             global and local administrator fields in the BGP community to
-            fit a 4-octet AS number.  
-
-<!-- [rfced] Informative reference RFC 4893 has been obsoleted by
-RFC 6793.  We recommend replacing RFC 4893 with RFC 6793.  However, if RFC
-4893 must be referenced, we suggest mentioning RFC 6793 (e.g., RFC 4893 has
-been obsoleted by RFC 6793).  To review the guidelines for references, see 
-Section 4.8.6 in the RFC Style Guide (RFC 7322). 
--->
-            Bearing this in mind,
+            fit a 4-octet AS number.  Bearing this in mind,
             the route server operator SHOULD take care to ensure that the
             predefined BGP community values mechanism used on their route
-            server is compatible with 4-octet AS numbers <xref target="RFC4893"/>.
+            server is compatible with 4-octet AS numbers <xref target="RFC6793"/>.
           </t>
         </section>
 
@@ -766,9 +758,9 @@ Section 4.8.6 in the RFC Style Guide (RFC 7322).
       <?rfc include="reference.RFC.4271"?> 
       <?rfc include="reference.RFC.4360"?> 
       <?rfc include="reference.RFC.4456"?> 
-      <?rfc include="reference.RFC.4893"?> 
       <?rfc include="reference.RFC.5291"?> 
       <?rfc include="reference.RFC.5881"?> 
+      <?rfc include="reference.RFC.6793"?> 
       <?rfc include="reference.RFC.7454"?> 
       
         <reference anchor="RS-ARCH"
