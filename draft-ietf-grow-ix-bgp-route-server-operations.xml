@@ -9,6 +9,7 @@
   <!ENTITY RFC4456 PUBLIC '' "http://xml.resource.org/public/rfc/bibxml/reference.RFC.4456.xml">
   <!ENTITY RFC4893 PUBLIC '' "http://xml.resource.org/public/rfc/bibxml/reference.RFC.4893.xml">
   <!ENTITY RFC5291 PUBLIC '' "http://xml.resource.org/public/rfc/bibxml/reference.RFC.5291.xml">
+  <!ENTITY RFC7454 PUBLIC '' "http://xml.resource.org/public/rfc/bibxml/reference.RFC.7454.xml">
 ]>
 <?xml-stylesheet type='text/xsl' 
 
@@ -706,6 +707,14 @@ href="http://greenbytes.de/tech/webdav/rfc2629xslt/rfc2629.xslt" ?>
 	  connections for traffic engineering or other purposes.
         </t>
       </section>
+      <section title="BGP Operations and Security">
+       <t>
+          BGP route servers SHOULD be configured and operated in compliance
+          with <xref target="RFC7454" /> with the exception of Section 11,
+          "BGP Community Scrubbing", which may not necessarily apply on a
+          route server, depending on the route server operator policy.
+        </t>
+      </section>
     </section>
 
     <section title="Security Considerations">
@@ -761,6 +770,7 @@ href="http://greenbytes.de/tech/webdav/rfc2629xslt/rfc2629.xslt" ?>
       <?rfc include="reference.RFC.4893"?> <!-- BGP Support for Four-octet AS Number Space -->
       <?rfc include="reference.RFC.5291"?> <!-- Outbound Route Filtering Capability for BGP-4 -->
       <?rfc include="reference.RFC.5881"?> <!-- BFD -->
+      <?rfc include="reference.RFC.7454"?> <!-- BGP Operations and Security -->
       <reference anchor="RS-ARCH"
                  target="http://www.cs.usc.edu/assets/003/83191.pdf">
         <front>
